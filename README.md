@@ -2,7 +2,7 @@
 My replication package for my STA-215 final project. This project investigates the relationship between student absenteeism and reading test scores to determine whether absenteeism has a significant effect on academic performance. Using a dataset of student absences and their associated reading test scores, the project employs statistical methods to evaluate potential correlations and causations.
 
 # Instructions
-To access and utilize the script, open the "STA215-ANZALONE.R"file, which contains the code for my project. To access the dataset, open the "raw_data.csv" file.
+To access and utilize the script, open the "STA215-ANZALONE.R" file, which contains the code for my project. To access the dataset, open the "raw_data.csv" file.
 
 # Data
 The dataset for this project includes information on student absenteeism, analyzed to determine if absenteeism is a significant issue within schools. Absenteeism was measured, categorizing districts into those with or without an absenteeism problem based on a threshold. The dataset also includes average reading test scores, grades offered, and student-teacher ratios for each district. This analysis aims to determine whether absenteeism correlates with student reading performance, providing insight into the broader impact of attendance on academic outcomes.
