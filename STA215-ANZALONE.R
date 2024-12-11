@@ -41,14 +41,14 @@ sd(complete_data$student_teacher_ratio)
 #################### Figure 1: boxplot             ####################   
 ##################################################################################
 # BOX PLOT
-ggplot(complete_data, aes(x = absent_problem, y = student_teacher_ratio)) +
+ggplot(complete_data, aes(x = absent_problem, y = reading_score)) +
   geom_boxplot() +
   labs(title = "Box Plot of absent problem and student teacher ratio",
        x = "absent problem",
        y = "student teacher ratio") +
   theme_minimal()
 
-anova <- aov(student_teacher_ratio ~ absent_problem, data = data)
+anova <- aov(reading_score ~ absent_problem, data = data)
 summary(anova)
 ##################################################################################
 ####################   Figure 2: scatter plot             ####################   
@@ -73,7 +73,7 @@ abline(linear_relationship, col = "red")
 ####################  Figure 3: residual plot                ####################   
 ##################################################################################
 # Plot the residuals
-plot(complete_data$streams, residuals(linear_relationship))
+plot(complete_data$student_teacher_ratio, residuals(linear_relationship))
 
 # Add a horizontal line at zero to indicate the baseline
 abline(h = 0, col = "red")
