@@ -8,7 +8,7 @@ To access and utilize the script, open the "STA215-ANZALONE.R"file, which contai
 The dataset for this project includes information on student absenteeism, analyzed to determine if absenteeism is a significant issue within schools. Absenteeism was measured, categorizing districts into those with or without an absenteeism problem based on a threshold. The dataset also includes average reading test scores, grades offered, and student-teacher ratios for each district. This analysis aims to determine whether absenteeism correlates with student reading performance, providing insight into the broader impact of attendance on academic outcomes.
 
 # Operationalization
-To operationalize absenteeism, I categorized districts based on whether their absenteeism. Districts with this were identified as having significant absenteeism problems, while those without were categorized as not having an absenteeism problem.
+To operationalize absenteeism, I categorized districts based on whether they have an absenteeism problem or not. Districts with this were identified as having significant absenteeism problems, while those without were categorized as not having an absenteeism problem.
 
 Reading test scores were operationalized using the average standardized test results for each district. These scores served as a quantitative measure of academic performance, providing a clear indicator of student outcomes.
 
