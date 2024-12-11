@@ -1,5 +1,5 @@
 # STA-215-Final-Project: Measuring-Student-Test-Scores-and-Educational-Outcomes
-My replication package for my STA-215 final project. This project investigates the relationship between student absenteeism and reading test scores to determine whether absenteeism has a significant effect on academic performance. Using a dataset of student absences and their associated reading test scores, the project employs statistical methods to evaluate potential correlations and causations.
+My replication package for my STA-215 final project. This project investigates the relationship between student absenteeism and reading test scores to determine whether absenteeism has a significant effect on academic performance. Using a dataset of student absences and their associated reading test scores, the project employs an anova test to evaluate potential correlations and causations.
 
 # Instructions
 To access and utilize the script, open the "STA215-ANZALONE.R" file, which contains the code for my project. To access the dataset, open the "raw_data.csv" file.
